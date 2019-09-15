@@ -1,0 +1,39 @@
+/* <section className="controls">
+        <input type="number" value={input} onChange={this.handleInput} />
+        <button type="button" name="deposit" onClick={this.handleClick}>
+          Deposit
+        </button>
+        <button type="button" name="withdrawal" onClick={this.handleClick}>
+          Withdraw
+        </button>
+      </section> */
+
+.controls {
+  padding: 56px 22%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(6, 44, 86);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.controls input {
+  flex: 0 0 39%;
+
+  padding: 10px 10px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+.controls button {
+  flex: 0 0 27%;
+
+  border-radius: 3px;
+  background-color: rgb(56, 132, 255);
+  font-size: 16px;
+  width: 187px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+}
